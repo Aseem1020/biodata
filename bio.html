@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{  
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+    .main{
+        width: 100%;
+        background-color:burlywood;
+        height: 900px;
+        line-height: 40px;
+    }
+    h1{
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 40px;
+        color:rgb(29, 29, 80);
+        text-decoration: underline;
+    }
+    h4{ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 15px;
+    }
+    h5{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 10px;
+    }
+    button{
+        padding: 10px 10px;
+        background-color:blue;
+        border: none;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 13px;
+        border-radius: 20px 20px 20px 20px;
+        cursor: pointer;
+        
+    }
+</style>
+<body>
+    <div class="main">
+        <h1> <i> BIODATA </i> </h1>
+        </br>
+        <button onclick='document.getElementById("bio").src="./image/aseem.jpg"'>Change Pic into Adult</button>
+        <img id="bio" src="./image/aseem.jpg" width="200px" height="200px">
+        <button onclick='document.getElementById("bio").src="./image/jatn 1.jpg"'>Change Pic into Childhood</button>
+        </br>
+        </br>
+        
+            <h4 class="name"></h4>
+            <h4 class="father"></h4>
+            <h4 class="mob"></h4>
+            <h4  class="dob"></h4>
+            <h4 class="age"></h4>
+            <h4 class="id"></h4>
+           
+            
+            <h4 class="gen"></h4>
+            <h4 class="mari"></h4>
+            
+            <h4 class="nat"></h4>
+           
+    </br>
+    </div>
+    
+</body>
+<script>
+    document.querySelector(".name").innerHTML="Name : ASEEM JOSHI"
+document.querySelector(".father").innerHTML="Father: VISHNU PRASAD JOSHI"
+document.querySelector(".mob").innerHTML="Mobile: 9754850400"
+document.querySelector(".dob").innerHTEML="DOB: 10/05/2001"
+document.querySelector(".age").innerHTML="Email: aseemjoshi75@gmail.com"
+document.querySelector(".gen").innerHTML="Gender: MALE"
+document.querySelector(".mari").innerHTML="Marrige: Unmarride "
+document.querySelector(".nat").innerHTML="Nationality: Indian"
+
+   
+
+    
+    
+</script>
+</html>
